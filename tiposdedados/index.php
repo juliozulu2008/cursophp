@@ -87,4 +87,22 @@ echo "<br>";
 if(is_array($array)){
     echo "Os Valores das Variaveis 'array' e 'array2'". print_r($array). print_r($array2). "Sao arrays";
 }
+echo "<br>";
+$carro = ["marca"=> "fiat", "modelo"=> "uno", "ano"=> 2010, "Flex" => true];
+print_r($carro);
+echo $carro["marca"];
 
+$marca = $carro["marca"];
+echo "<br>";
+echo $marca;
+echo "<br>";
+echo "<hr>";
+// NULL
+
+echo null;
+
+$nome = null;
+
+if(is_null($nome)){
+    echo "O valor da variavel $ nome esta $nome Nulo";
+}
